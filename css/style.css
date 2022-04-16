@@ -1,13 +1,12 @@
 /********element selector***********/
-
 body {
   margin: 0;
-background-color: #FBD6D2;
-text-align: center;
+  background-color: #FBD6D2;
+  text-align: center;
 }
 
 h1 {
-font-size: 5em;
+  font-size: 5em;
   color: #F190B7;
   font-family: 'Sacramento', cursive;
 }
@@ -20,44 +19,48 @@ h2 {
 
 h3 {
   color: #CE49BF;
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h6 {
-font-family: 'Merriweather', serif;
-font-weight: normal;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
 }
+
 p {
   font-family: 'Merriweather', serif;
-line-height: 2;
+  line-height: 2;
 }
+
 hr {
   border-style: none;
   border-top-style: dotted;
   width: 50px;
-border-width: 7px;
+  border-width: 7px;
   border-color: grey;
 }
-/********class selector***********/
 
+li {
+  line-height:2;
+}
+/********class selector***********/
 .top-container {
   position: relative;
-padding-top: 100px;
-
+  padding-top: 100px;
 }
 
 .middle-container {
   background-color: white;
   padding-top: 50px;
-  padding-bottom: 70px ;
+  padding-bottom: 70px;
 }
 
 .bottom-container {
-  margin: 100px ;
+  margin: 100px;
   position: relative;
-  }
+}
 
-  .top-cloud {
+.top-cloud {
   position: absolute;
   right: 20%;
   top: 20%;
@@ -65,12 +68,17 @@ padding-top: 100px;
 
 .bottom-cloud {
   position: absolute;
-  left:20%;
+  left: 20%;
   bottom: 45%;
 }
 
 .introduction {
   margin: 100px;
+}
+
+.intro-p {
+  width: 30%;
+  margin: auto;
 }
 
 .my-image {
@@ -80,23 +88,20 @@ padding-top: 100px;
 }
 
 .violin-image {
-  height:200px;
+  height: 200px;
   width: 250px;
   float: left;
 }
 
 .landscape-image {
-  height:250px;
+  height: 250px;
   width: 300px;
   float: right;
   margin-left: 7%
 }
 
-
-
 .Education {
   margin: 100px auto;
-
 }
 
 .education-list {
@@ -107,23 +112,22 @@ padding-top: 100px;
 .violin-skill {
   text-align: left;
   margin: 50px auto 130px;
-
 }
 
 .violin-line {
   border-style: none;
   border-top: solid;
   border-width: 2px;
-  width:70%;
-position: absolute;
-bottom:54.8%;
-left: 10%;
-color: gray;
+  width: 70%;
+  position: absolute;
+  bottom: 54.8%;
+  left: 10%;
+  color: gray;
 }
 
 .landscape-skill {
-  margin-bottom : 200px;
-  text-align:left;
+  margin-bottom: 200px;
+  text-align: left;
 }
 
 .Skills {
@@ -138,12 +142,11 @@ color: gray;
 
 .get-in-touch-h2 {
   margin-bottom: 50px;
-
 }
 
-.get-in-touch-p{
+.get-in-touch-p {
   margin-top: 30px;
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 .btn {
